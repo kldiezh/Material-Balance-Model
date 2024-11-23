@@ -5,6 +5,8 @@ import pandas as pd
 
 P = np.arange(Pi,2180,-20) # Pressure array
 
+# Init the pressures
+
 P_UR = np.array([]) # Pressures above Pb.
 P_SR = np.array([]) # Presssure below Pb.
 
